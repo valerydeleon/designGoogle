@@ -1,0 +1,74 @@
+@mixin nav-menu{
+    display: inline-block;
+    padding: 5%;
+    font-family: $subtitle;
+    color: $dark-gray-primary-color;
+    font-weight: 500;
+    font-size: 120%;
+}
+
+@mixin headers{
+    font-family: $header-n-text;
+    color: $dark-gray-primary-color;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 3% 0;
+}
+
+@mixin subtitles{
+    font-family: $subtitle;
+    color: $dark-gray-primary-color;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 3% 0;
+}
+
+@mixin text{
+    font-family: $header-n-text;
+    color: $text-gray-color;
+    font-weight: 400;
+    line-height: 24px;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+}
+
+@mixin dates-n-subjects{
+    font-family: $date-n-subject;
+    color: $light-gray-secondary-color;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 3% 0;
+    line-height: 24px;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+}
+
+@mixin more-info{
+    font-family: $date-n-subject;
+    color: $light-gray-secondary-color;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 3% 0;
+    line-height: 24px;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+}
+
+@mixin images{
+    width: 100%;
+    margin-top: $min-margin;
+    margin-bottom: $min-margin;
+}
+
+@mixin box-shadows{
+    box-shadow: 20px 20px 9px -17px rgba(143,143,143,0.5);
+        -webkit-box-shadow: 20px 20px 9px -17px rgba(143,143,143,0.5);
+        -moz-box-shadow: 20px 20px 9px -17px rgba(143,143,143,0.5);
+}
+
+
+
+
+
+
+
